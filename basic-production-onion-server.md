@@ -73,6 +73,7 @@ sudo -i # to give you a root shell
 apt-get install aptitude
 aptitude update
 aptitude upgrade
+aptitude install unattended-upgrades
 ```
 
 If you're going to enable `ssh` for remote access from your local network, this is probably the right time to do it.
